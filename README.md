@@ -31,7 +31,7 @@
 
 ```bash
 # Скачайте скрипт
-curl -O https://raw.githubusercontent.com/yourusername/auto-vless-centos9/main/install-vless.sh
+curl -O https://raw.githubusercontent.com/TasherovNET/auto-vless-centos9/main/install-vless.sh
 
 # Дайте права на выполнение
 chmod +x install-vless.sh
