@@ -153,6 +153,18 @@ journalctl -u xray -f
 ```bash
 /usr/local/bin/xray -test -config /usr/local/etc/xray/config.json
 ```
+# Открытие портов 443 и 8443
+sudo firewall-cmd --permanent --add-port=443/tcp
+sudo firewall-cmd --permanent --add-port=8443/tcp
+
+# Также откройте порт 80 для получения SSL сертификатов
+sudo firewall-cmd --permanent --add-port=80/tcp
+
+# Перезагрузить firewall
+sudo firewall-cmd --reload
+
+# Проверить открытые порты
+sudo firewall-cmd --list-all
 
 ### Проброс портов
 Убедитесь, что порты открыты на сервере:
