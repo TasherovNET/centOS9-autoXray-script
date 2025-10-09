@@ -43,7 +43,7 @@ chmod +x install-vless.sh
 ### 2. Альтернативный метод (одной командой)
 
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/yourusername/auto-vless-centos9/main/install-vless.sh)
+bash <(curl -sL https://raw.githubusercontent.com/TasherovNET/auto-vless-centos9/main/install-vless.sh)
 ```
 
 ## 📝 Процесс установки
