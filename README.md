@@ -31,7 +31,8 @@
 
 ```bash
 # Скачайте скрипт
-curl -O https://raw.githubusercontent.com/TasherovNET/auto-vless-centos9/main/install-vless.sh
+curl -O https://raw.githubusercontent.com/TasherovNET/centOS9-autoXray-script
+/main/install-vless.sh
 
 # Дайте права на выполнение
 chmod +x install-vless.sh
@@ -43,7 +44,8 @@ chmod +x install-vless.sh
 ### 2. Альтернативный метод (одной командой)
 
 ```bash
-bash <(curl -sL https://raw.githubusercontent.com/TasherovNET/auto-vless-centos9/main/install-vless.sh)
+bash <(curl -sL https://raw.githubusercontent.com/TasherovNET/centOS9-autoXray-script
+/main/install-vless.sh)
 ```
 
 ## 📝 Процесс установки
